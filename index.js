@@ -8,7 +8,7 @@ const videox = require('./lib/video.js');
 const sticker = require('./lib/sticker.js');
 const data = JSON.parse(fs.readFileSync('./lib/data/data.json'));
 const admin = JSON.parse(fs.readFileSync('./lib/data/admin.json'));
-const token = "xxxxxxxxxx";
+const token = "6043515198:AAEryEpkO-KiG6B_cfvpjCUlNVhnZSVMQO8";
 const options = { channelMode: true, polling: true }
 const bot = new Telegraf(token, options);
 
